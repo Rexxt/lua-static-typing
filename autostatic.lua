@@ -1,4 +1,9 @@
 -- static typing module
+--[[
+    Mizu, 2021
+    edited on 2021-11-10 at 19:36 UTC
+]]
+
 
 local __static_type_proxy = {}
 
