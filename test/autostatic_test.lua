@@ -10,5 +10,5 @@ namespace = {
 print(foo)
 print(namespace.bar)
 print(namespace.baz)
-namespace.bar = "bar2" -- should throw an error because namespace is statically typed
+namespace.bar = 12 -- should throw an error because namespace is statically typed
 print(namespace.bar)
